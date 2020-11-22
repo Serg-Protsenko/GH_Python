@@ -10,7 +10,7 @@
 class LoginException(Exception):
     pass
 
-def login(username, password, silent=False):
+def login(username, password, silent):
     login_list = [{'Vasya':'12345678'}, {'Petya':'123123'}, {'Jackson':'qwerty12'}, {'Simon':'123abs'}, {'Olya':'_tyta1234'}]
     if silent:
         if any(i.get(username) == password for i in login_list):
