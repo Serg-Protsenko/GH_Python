@@ -1,0 +1,6 @@
+Transaction,Operation,Balance
+1,check balance ATM,93500
+2,load ATM,500
+3,check balance ATM,94000
+4,withdraw,-660
+5,withdraw,-110

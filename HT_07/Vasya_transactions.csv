@@ -1,0 +1,4 @@
+Transaction,Operation,Balance
+1,check balance,1000
+2,deposite,+1000
+3,withdraw,-660
